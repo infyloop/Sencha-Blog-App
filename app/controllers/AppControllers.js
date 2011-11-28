@@ -9,7 +9,7 @@ Ext.regController('AppControllers', {
   'search': function(options){
     console.log(options);
     blogapp.views.listView = new blogapp.views.ListView();
-    blogapp.views.mainView.setActiveItem(blogapp.views.listview,{type: 'flip'});
+    blogapp.views.mainView.setActiveItem(blogapp.views.listView,{type: 'flip'});
   }
 
 

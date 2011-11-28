@@ -67,12 +67,13 @@ blogapp.views.FormView = Ext.extend(Ext.form.FormPanel, {
     onSearchAction: function() {
         var queryData = this.getRecord();
        console.log(this);
-        Ext.dispatch({
-            controller: 'search',
-            data      : this.getValues(),
-            record    : this.getRecord(),
-            form      : this
-        });
+        //Ext.dispatch({
+            //controller: blogapp.controllers.appController.search,
+            //data      : this.getValues(),
+            //record    : this.getRecord(),
+            //form      : this
+        //});
+        blogapp.controllers.appController.search(this);
     },
     
      

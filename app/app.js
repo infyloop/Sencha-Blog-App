@@ -2,6 +2,6 @@
 Ext.regApplication({
     name: 'blogapp',
     launch: function() {
-        this.views.viewport = new this.views.Viewport();
+        this.views.mainView = new this.views.MainView();
     }
 });
