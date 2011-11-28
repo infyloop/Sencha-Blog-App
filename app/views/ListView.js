@@ -1,4 +1,4 @@
-blogapp.views.listView = Ext.extend(Ext.Panel, {
+blogapp.views.ListView = Ext.extend(Ext.Panel, {
   layout: 'fit',
   initComponent: function(){
     var timeline, mapPanel, panel, tabBar, refresh, addMarker, tweetBubble;

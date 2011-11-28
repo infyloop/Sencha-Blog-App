@@ -1,6 +1,6 @@
 // The blogapp Viewport is an extension of the Ext.Panel component.
 // This is "main" wrapping view.
-blogapp.views.Viewport = Ext.extend(Ext.Panel, {
+blogapp.views.MainView = Ext.extend(Ext.Panel, {
     // Let's set some config options for the panel.
     fullscreen: true,
     layout: 'card',
@@ -20,7 +20,7 @@ blogapp.views.Viewport = Ext.extend(Ext.Panel, {
         blogapp.views.formView
         ]
         // Similar to calling "super" in languages like Java.  Kicks off initialization in parent classes.
-        blogapp.views.Viewport.superclass.initComponent.apply(this);
+        blogapp.views.MainView.superclass.initComponent.apply(this);
     }
 
 });
