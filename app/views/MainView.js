@@ -14,7 +14,7 @@ blogapp.views.Viewport = Ext.extend(Ext.Panel, {
         // Let's add our view to the Viewport.
         // This is defined in the "views" folder under its respective name.
         Ext.apply(this, {
-          formPage: new blogapp.views.FormView()
+          formView: new blogapp.views.FormView()
         });
       this.items = [
         blogapp.views.formView
